@@ -14,8 +14,9 @@ from sailfish.util import is_number
 
 ScratchSize = namedtuple('ScratchSize', ('dim2', 'dim3'))
 
+a=1
 
-class LBNodeType(object):
+class LBNodeType(object):s
     """Base class for node types."""
 
     # Initialized when module is loaded.
